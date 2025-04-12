@@ -2,16 +2,12 @@ function getShippingCost(country) {
   switch (country) {
     case 'China':
       return 100;
-      break;
     case 'Chile':
       return 250;
-      break;
     case 'Australia':
       return 170;
-      break;
     case 'Jamaica':
       return 120;
-      break;
     default:
       return 'Sorry, there is no delivery to your country';
   }
